@@ -67,7 +67,7 @@ function calculateTotal() {
     const nights = diffDays > 0 ? diffDays : 1; // Minimum 1 night
 
     // Default price if no room selected yet (use average or base)
-    const pricePerNight = selectedRoomPrice || 3500;
+    const pricePerNight = selectedRoomPrice || 1550;
 
     totalAmount = pricePerNight * nights * rooms;
 
